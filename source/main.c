@@ -28,7 +28,12 @@ int main(void) {
         tmp = 0xFF & PINA;
 	lowFuel = 0x00;
 
-	if ((tmp == 0x01) || (tmp == 0x02)) {
+	if(tmp == 0x00) {
+		fuelLevel = 0x00;
+		lowFuel = 0x40;
+	}
+
+	else if ((tmp == 0x01) || (tmp == 0x02)) {
 		fuelLevel = 0x20;
 		lowFuel = 0x40;
 	}
