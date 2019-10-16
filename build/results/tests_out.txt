@@ -1,8 +1,22 @@
 Breakpoint 1 at 0xea: file source/main.c, line 25.
 Note: automatically using hardware breakpoints for read-only addresses.
-A debugging session is active.
+======================================================
+Running all tests..."
 
-	Inferior 1 [Remote target] will be detached.
-
-Quit anyway? (y or n) Detaching from program: /home/csmajs/cdiaz021/CS120B_Lab5/build/objects/main.elf, Remote target
+"PINA[3:0]: 0x01, PORTC[6:0]: 0x60"...
+	Expected 0x60 
+	PORTC '0x800028:	0x3f
+"PINA[3:0]: 0x03, PORTC[6:0]: 0x70"...
+	Expected 0x70 
+	PORTC '0x800028:	0x3f
+"PINA[3:0]: 0x05, PORTC[6:0]: 0x38"...
+	Expected 0x38 
+	PORTC '0x800028:	0x3f
+"PINA[3:0]: 0x08, PORTC[6:0]: 0x3C"...
+	Expected 0x3C 
+	PORTC '0x800028:	0x3f
+"PINA[3:0]: 0x0B, PORTC[6:0]: 0x3E"...
+	Expected 0x3E 
+	PORTC '0x800028:	0x3f
+"PINA[3:0]: 0x0F, PORTC[6:0]: 0x3F"...======================================================
 Quitting: Remote doesn't know how to detach
